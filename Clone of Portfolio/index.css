@@ -1,0 +1,95 @@
+body{margin:0; padding:0;}
+
+
+.about_img {width:50%; border-radius: 999px; margin: 1rem 0 0 4rem;}
+
+.name h2 {
+
+    color: aliceblue; margin-left: 1.5rem; margin-top: 1rem;
+
+}
+
+.facebook {
+    color: rgb(41, 41, 245); margin-top: 1rem; margin-left: 3.5rem; font-size: 1rem;
+}
+
+.instagram {
+    color: rgb(241, 129, 129);  margin-left: 1.5rem; font-size: 1rem;
+}
+
+.linkedin {
+    color: rgb(74, 74, 243); margin-left: 1.5rem; font-size: 1rem;
+}
+
+.github {
+    color: aliceblue; margin-left: 1.5rem; font-size: 1rem;
+}
+
+.house {
+    margin: 0 1rem 0 0;
+}
+
+.house:hover {
+    color: blue;
+}
+
+.image_me::before {
+    content:'';
+
+    background-image: url(images/sandeep4.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 670px;
+    background-size: cover;
+    
+    height: 40rem;
+    margin: 0 0 0 -12px;
+    opacity: .4;
+
+}
+.image_me h1 {
+    color: crimson;
+    margin: 0 0 0 0;
+}
+
+.image_me h2 {
+    color: brown;
+    font-size: 3rem;
+}
+
+.head1 {
+    width: 100%; float: left;
+}
+
+.head1 h1 {
+    text-align: center; color: rgb(148, 14, 175);
+    font-size: 5rem;
+}
+
+.head1 span {
+    color: blueviolet;
+}
+
+.head2 {
+    width: 100%; float: left;
+}
+
+.head2 p {
+    font-size: 1.5rem; color: brown;
+}
+
+.sidebar{
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    
+}
+
+@media (max-width: 1615px;) {
+
+}
+
